@@ -29,7 +29,7 @@ A bicycle retailer needed to transform their sales data into actionable insights
 ![Customer Profiles Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.3%20Dim%20Customers.png)
 
 ### Data Model
-![Bicycle Retail Data Model](data_model_screenshot.png)
+![Bicycle Retail Data Model](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.4%20Data%20Model.png)
 
 *The data model shows the relationship between fact_sales table and dimension tables (dim_products and dim_customers), highlighting the star schema design used for analytical queries.*
 
