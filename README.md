@@ -6,6 +6,7 @@ Transforming raw sales data into actionable business insights using advanced SQL
 
 ### Business Context
 A bicycle retailer needed to transform their sales data into actionable insights to:
+
 1. Identify top-performing products and categories
 2. Understand customer purchase patterns
 3. Optimize inventory planning
@@ -39,7 +40,8 @@ A bicycle retailer needed to transform their sales data into actionable insights
 
 
 ### Analytical Approach
-- Developed 9 key SQL analyses covering:
+
+- Developed 8 key SQL analyses covering:
   - Time-series sales trends
   - Product performance benchmarking
   - Customer segmentation
@@ -261,7 +263,7 @@ GROUP BY CASE
 
 
 
-### 8. Product Performance Report
+### 7. Product Performance Report
 ```sql
 CREATE VIEW gold_report_products AS
 WITH base_query AS (
@@ -347,7 +349,7 @@ FROM product_aggregations;
 - Inventory velocity indicators
 
 
-### 9. Customer Insights Report
+### 8. Customer Insights Report
 ```sql
 CREATE VIEW gold_report_customers AS
 WITH base_query AS (
