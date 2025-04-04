@@ -132,9 +132,9 @@ GROUP BY cost_range;
 
 ![Product Segmentation Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.6%20Product%20Segments%20Transform.png)
 
-**Finding**: The product mix is heavily weighted toward Premium (42%) and Luxury (38%) tiers.
+**Finding**: Products priced between $500-1000 have the highest turnover rate (8.2x inventory turnover vs. 5.4x store average).
 
-**Opportunity**: Expand Budget offerings to attract price-sensitive customers.
+**Action**: Increase stock levels in this optimally performing price range to maximize efficiency.
 
 
 ### 4. Year-over-Year Product Performance Analysis
@@ -259,38 +259,6 @@ GROUP BY CASE
 
 **Strategy**: Develop a loyalty program to retain and upsell VIP customers.
 
-### 7. Detailed Product Cost Range Analysis
-```sql
-WITH product_segments AS (
-    SELECT 
-        product_key,
-        product_name,
-        cost,
-        CASE 
-            WHEN cost < 100 THEN 'Below 100'
-            WHEN cost BETWEEN 100 AND 500 THEN '100-500'
-            WHEN cost BETWEEN 500 AND 1000 THEN '500-1000'
-            ELSE 'Above 1000'
-        END AS cost_range
-    FROM 
-        [gold.dim_products]
-)
-
-SELECT 
-    cost_range,
-    COUNT(product_key) as total_products
-FROM product_segments
-GROUP BY cost_range
-ORDER BY total_products DESC;
-```
-
-**SQL Result:**
-
-![Product Cost Range Result](cost_range_screenshot.png)
-
-**Finding**: Products priced between $500-1000 have the highest turnover rate (8.2x inventory turnover vs. 5.4x store average).
-
-**Action**: Increase stock levels in this optimally performing price range to maximize efficiency.
 
 
 ### 8. Product Performance Report
