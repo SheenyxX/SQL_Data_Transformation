@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+Transforming raw sales data into actionable business insights using advanced SQL analytics to optimize inventory, marketing, and customer strategies for a bicycle retailer.
+
 ### Business Context
 A bicycle retailer needed to transform their sales data into actionable insights to:
 1. Identify top-performing products and categories
