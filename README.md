@@ -10,20 +10,20 @@ A bicycle retailer needed to transform their sales data into actionable insights
 4. Develop targeted marketing strategies
 
 ### Data Assets Utilized
-- **Sales Transactions** (`gold.fact_sales`): 20K+ records with order details
-- **Product Catalog** (`gold.dim_products`): 100+ products with cost and category data
-- **Customer Profiles** (`gold.dim_customers`): 500+ customers with demographic info
+- **Sales Transactions** (`fact_sales`): 20K+ records with order details
+- **Product Catalog** (`dim_products`): 100+ products with cost and category data
+- **Customer Profiles** (`dim_customers`): 500+ customers with demographic info
 
 #### Sample Initial Dataset
 
-**Sales Transactions (`gold.fact_sales`)**
-![Sales Transactions Sample](sales_transactions_screenshot.png)
+**Sales Transactions (`fact_sales`)**
+![Sales Transactions Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.1%20Fact%20Sales.png)
 
-**Product Catalog (`gold.dim_products`)**
-![Product Catalog Sample](product_catalog_screenshot.png)
+**Product Catalog (`dim_products`)**
+![Product Catalog Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.2%20Dim%20Products%20.png)
 
-**Customer Profiles (`gold.dim_customers`)**
-![Customer Profiles Sample](customer_profiles_screenshot.png)
+**Customer Profiles (`dim_customers`)**
+![Customer Profiles Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.3%20Dim%20Customers.png)
 
 ### Data Model
 ![Bicycle Retail Data Model](data_model_screenshot.png)
