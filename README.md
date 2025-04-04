@@ -14,15 +14,18 @@ A bicycle retailer needed to transform their sales data into actionable insights
 - **Product Catalog** (`dim_products`): 100+ products with cost and category data
 - **Customer Profiles** (`dim_customers`): 500+ customers with demographic info
 
-#### Sample Initial Dataset
+####  Initial Dataset
 
 **Sales Transactions (`fact_sales`)**
+
 ![Sales Transactions Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.1%20Fact%20Sales.png)
 
 **Product Catalog (`dim_products`)**
+
 ![Product Catalog Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.2%20Dim%20Products%20.png)
 
 **Customer Profiles (`dim_customers`)**
+
 ![Customer Profiles Sample](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.3%20Dim%20Customers.png)
 
 ### Data Model
