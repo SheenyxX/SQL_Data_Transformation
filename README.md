@@ -65,7 +65,9 @@ ORDER BY FORMAT([order_date], 'yyyy-MM');
 ```
 
 **SQL Result:**
-![Monthly Sales Trends Result](monthly_sales_trends_screenshot.png)
+![Monthly Sales Trends Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.1%20SQL%20Transform.png)
+
+**Rows**: 38
 
 **Finding**: Sales peak in Q2 (April-June) with a 35% increase over average months, suggesting seasonal demand for bicycles.
 
@@ -91,7 +93,7 @@ ORDER BY order_date;
 ```
 
 **SQL Result:**
-![Running Total Analysis Result](running_total_screenshot.png)
+![Running Total Analysis Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.2%20SQL%20Transform.png)
 
 **Finding**: The running total analysis reveals consistent year-over-year growth with a 15% average annual increase in sales.
 
@@ -121,7 +123,7 @@ GROUP BY cost_range;
 ```
 
 **SQL Result:**
-![Product Segmentation Result](product_segmentation_screenshot.png)
+![Product Segmentation Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.6%20Product%20Segments%20Transform.png)
 
 **Finding**: The product mix is heavily weighted toward Premium (42%) and Luxury (38%) tiers.
 
@@ -173,7 +175,7 @@ ORDER BY
 ```
 
 **SQL Result:**
-![YoY Product Analysis Result](yoy_product_screenshot.png)
+![YoY Product Analysis Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.3%20SQL%20Transform.png)
 
 **Finding**: Premium road bikes show consistent year-over-year growth (18-22%) while mountain bikes demonstrate more seasonal variability.
 
@@ -201,7 +203,7 @@ ORDER BY total_sales DESC;
 ```
 
 **SQL Result:**
-![Category Contribution Result](category_contribution_screenshot.png)
+![Category Contribution Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.4%20Sales%20By%20Category%20Transform.png)
 
 **Finding**: Road bikes (42%) and mountain bikes (28%) generate 70% of total revenue, while accessories (15%) offer the highest margin.
 
@@ -239,7 +241,7 @@ GROUP BY CASE
 ```
 
 **SQL Result:**
-![Customer Segmentation Result](customer_segmentation_screenshot.png)
+![Customer Segmentation Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.7%20Customer%20Segments%20Transform.png)
 
 **Finding**: VIP customers (12% of base) generate 48% of total revenue.
 
@@ -352,7 +354,7 @@ FROM product_aggregations;
 ```
 
 **SQL Result:**
-![Product Performance Report](product_report_screenshot.png)
+![Product Performance Report](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.9%20Product%20Report%20Transform.png)
 
 **Key Metrics Included**:
 - Sales performance by product
@@ -443,7 +445,7 @@ FROM
 ```
 
 **SQL Result:**
-![Customer Insights Report](customer_report_screenshot.png)
+![Customer Insights Report](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.8%20Customer%20Report%20Transform.png)
 
 **Key Features**:
 - Demographic segmentation
@@ -453,20 +455,6 @@ FROM
 - Lifetime value calculation
 
 ---
-
-## Implementation Impact
-
-### Inventory Optimization
-![Inventory Optimization Results](inventory_optimization_screenshot.png)
-*Chart showing the before and after comparison of inventory metrics, highlighting improved turnover ratio and reduced stockouts.*
-
-### Marketing Efficiency
-![Marketing Performance Improvement](marketing_performance_screenshot.png)
-*Graph illustrating the improvement in key marketing metrics after implementing data-driven segmentation strategies.*
-
-### Financial Results
-![Financial Impact Summary](financial_results_screenshot.png)
-*Chart showing the financial improvements across multiple metrics including gross margins, order values, and inventory costs.*
 
 ---
 
