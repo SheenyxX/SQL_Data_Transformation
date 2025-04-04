@@ -65,6 +65,7 @@ ORDER BY FORMAT([order_date], 'yyyy-MM');
 ```
 
 **SQL Result:**
+
 ![Monthly Sales Trends Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.1%20SQL%20Transform.png)
 
 **Rows**: 38
@@ -72,6 +73,7 @@ ORDER BY FORMAT([order_date], 'yyyy-MM');
 **Finding**: Sales peak in Q2 (April-June) with a 35% increase over average months, suggesting seasonal demand for bicycles.
 
 **Recommendation**: Increase marketing spend and inventory levels before peak season.
+
 
 ### 2. Running Total and Moving Average Analysis
 ```sql
@@ -93,11 +95,13 @@ ORDER BY order_date;
 ```
 
 **SQL Result:**
+
 ![Running Total Analysis Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.2%20SQL%20Transform.png)
 
 **Finding**: The running total analysis reveals consistent year-over-year growth with a 15% average annual increase in sales.
 
 **Recommendation**: Use the established growth pattern for reliable financial forecasting and expansion planning.
+
 
 ### 3. Product Performance Segmentation
 ```sql
@@ -123,11 +127,13 @@ GROUP BY cost_range;
 ```
 
 **SQL Result:**
+
 ![Product Segmentation Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.6%20Product%20Segments%20Transform.png)
 
 **Finding**: The product mix is heavily weighted toward Premium (42%) and Luxury (38%) tiers.
 
 **Opportunity**: Expand Budget offerings to attract price-sensitive customers.
+
 
 ### 4. Year-over-Year Product Performance Analysis
 ```sql
@@ -175,11 +181,13 @@ ORDER BY
 ```
 
 **SQL Result:**
+
 ![YoY Product Analysis Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.3%20SQL%20Transform.png)
 
 **Finding**: Premium road bikes show consistent year-over-year growth (18-22%) while mountain bikes demonstrate more seasonal variability.
 
 **Strategy**: Prioritize steady inventory of road bikes while implementing more dynamic purchasing for mountain bike models.
+
 
 ### 5. Category Contribution Analysis
 ```sql
@@ -203,6 +211,7 @@ ORDER BY total_sales DESC;
 ```
 
 **SQL Result:**
+
 ![Category Contribution Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.4%20Sales%20By%20Category%20Transform.png)
 
 **Finding**: Road bikes (42%) and mountain bikes (28%) generate 70% of total revenue, while accessories (15%) offer the highest margin.
@@ -241,6 +250,7 @@ GROUP BY CASE
 ```
 
 **SQL Result:**
+
 ![Customer Segmentation Result](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.7%20Customer%20Segments%20Transform.png)
 
 **Finding**: VIP customers (12% of base) generate 48% of total revenue.
@@ -273,11 +283,13 @@ ORDER BY total_products DESC;
 ```
 
 **SQL Result:**
+
 ![Product Cost Range Result](cost_range_screenshot.png)
 
 **Finding**: Products priced between $500-1000 have the highest turnover rate (8.2x inventory turnover vs. 5.4x store average).
 
 **Action**: Increase stock levels in this optimally performing price range to maximize efficiency.
+
 
 ### 8. Product Performance Report
 ```sql
@@ -354,6 +366,7 @@ FROM product_aggregations;
 ```
 
 **SQL Result:**
+
 ![Product Performance Report](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.9%20Product%20Report%20Transform.png)
 
 **Key Metrics Included**:
@@ -362,6 +375,7 @@ FROM product_aggregations;
 - Automated segmentation
 - Customer acquisition metrics
 - Inventory velocity indicators
+
 
 ### 9. Customer Insights Report
 ```sql
@@ -445,6 +459,7 @@ FROM
 ```
 
 **SQL Result:**
+
 ![Customer Insights Report](https://github.com/SheenyxX/SQL_Data_Transformation_Project/blob/main/1.8%20Customer%20Report%20Transform.png)
 
 **Key Features**:
