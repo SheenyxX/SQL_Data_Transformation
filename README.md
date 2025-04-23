@@ -1,3 +1,5 @@
+[![SQL Server 2017+-blue](https://img.shields.io/badge/SQL%20Server-2017+-blue)](https://www.microsoft.com/en-us/sql-server)
+
 # Bicycle Retail Analytics: SQL-Driven Sales Optimization
 
 ## Project Overview
